@@ -31,10 +31,12 @@ while i<3:
 # Pista: Usa los dos tipos loops while y for en el mismo programa para lograrlo
 
 i = 0
-mi_lista_2 = ["Lunes", "martes", "miercoles", "jueves", "viernes"]
-while i < 3:
-    i +=1
+mi_lista_2 = ["lunes", "martes", "miercoles", "Jueves", "viernes"]
 
-for d in mi_lista_2:
-    if d != "lunes":
-        print(d)
+i < 3
+i += 1
+
+for i in range(3):
+    for d in mi_lista_2:
+        if d != "lunes":
+            print(d)
